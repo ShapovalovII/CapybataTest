@@ -1,8 +1,4 @@
 
-Given(/^Go to page "([^"]*)"$/) do |page|
-  visit page
-end
-
 
 And(/^I fill "([^"]*)" email field$/) do |text|
   find(:xpath, "//*[@id='identifierId']").set(text)
@@ -22,8 +18,12 @@ And(/^I click next finish button$/) do
 
 end
 
-Then(/^I should see the userform page$/) do
+
+
+Then(/^I should see the error message$/) do
   sleep(5)
 end
 
-
+Given(/^Go to page "([^"]*)"$/) do |page|
+  visit page
+end
