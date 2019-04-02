@@ -5,7 +5,7 @@
  * https://www.jetbrains.com/ruby/download/#section=windows
  * https://rubyinstaller.org/downloads/
  
- ###Running the test via the command line
+ ### Running the test via the command line
  
  Navigate to directory and run test
  ```
