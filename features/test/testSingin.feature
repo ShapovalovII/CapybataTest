@@ -4,7 +4,7 @@ Feature: LoginFeature
 
   Scenario: Login with correct username and password
     Given Go to page "https://accounts.google.com"
-    And I fill "shapovalovii2000@gmail.com" field email id = "identifierId"
+    And I fill "shapovalovii2000@gmail.com" email field
     And I click next button
     And I fill "shapovalov2000" password field
     And I click next finish button
