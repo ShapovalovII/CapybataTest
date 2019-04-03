@@ -11,7 +11,7 @@
  ```
  bunder install
  
- cucumber C:\Users\Igor\RubymineProjects\Capybara\features\test\testSingin.feature
+ cucumber ..\test\testSingin.feature
  ```
  
  ### Test
