@@ -17,4 +17,4 @@
  ### Test
  
  * SingInGoogleAccountTest
- * * Positive sinin test
+ * * Negative sinin test
